@@ -1,4 +1,4 @@
-from app import restore_names
+from app.restore_names import restore_names
 
 
 def test_restore_names_when_first_name_is_none() -> None:
